@@ -64,7 +64,7 @@ main(){
 		if(evaluarFA(a)*evaluarFB(b) < 0){
 			printf("\ta\t     b\t\tf(a)\t     fb)\t     c\t     f(c)\n"); 	//encabezado de tabla
 			
-			int i;
+			int i=0;
 			while ((c!=0) && (evaluarFA(a)*evaluarFB(b) < 0) && (i<=max_it) )  
 			{
 				/*err = c;
